@@ -17,7 +17,7 @@ Here each call add a level to the stack :
 Conclusion:  Each of these calls is added to call stack and takes up actual memory.
 So it takes O(n) space.
 
-But because you have n calls total doesn’t mean it takes O(n) space, 
+But because I have n calls total doesn’t mean it takes O(n) space, 
 for example:
 
 int addSequence (int n){
