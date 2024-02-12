@@ -1,6 +1,6 @@
 link for tutorial : https://www.youtube.com/watch?v=ij392YTpBKo&list=PLmM0bg5v6gKFMhJ9vn2MwxVm2TUNU42VU&index=15
 
-example related to space complexity:
+# example related to space complexity:
 
 int add (int n){
     if (n <= 0){
@@ -14,6 +14,7 @@ Here each call add a level to the stack :
 3.      -> add(2)
 4.        -> add(1)
 5.          -> add(0)
+
 Conclusion:  Each of these calls is added to call stack and takes up actual memory.
 So it takes O(n) space.
 
