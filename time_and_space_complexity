@@ -1,1 +1,36 @@
 link for tutorial : https://www.youtube.com/watch?v=ij392YTpBKo&list=PLmM0bg5v6gKFMhJ9vn2MwxVm2TUNU42VU&index=15
+
+example related to space complexity:
+
+int add (int n){
+    if (n <= 0){
+        return 0;
+    }
+    return n + add (n-1);
+}
+Here each call add a level to the stack :
+1.  add(4)
+2.    -> add(3)
+3.      -> add(2)
+4.        -> add(1)
+5.          -> add(0)
+Conclusion:  Each of these calls is added to call stack and takes up actual memory.
+So it takes O(n) space.
+
+But because you have n calls total doesn’t mean it takes O(n) space, 
+for example:
+
+int addSequence (int n){
+    int sum = 0;
+    for (int i = 0; i < n; i++){
+        sum += pairSum(i, i+1);
+    }
+    return sum;
+}
+int pairSum(int x, int y){
+    return x + y;
+}
+
+Conclusion: There will be roughly O(n) calls to pairSum. However, those 
+calls do not exist simultaneously on the call stack,
+so you only need O(1) space.
