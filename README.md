@@ -1,3 +1,4 @@
+# DSApractise Info
 
 This repo contains all the docs related to my DSA practise.
 
