@@ -1,5 +1,6 @@
 link for tutorial : https://www.youtube.com/watch?v=ij392YTpBKo&list=PLmM0bg5v6gKFMhJ9vn2MwxVm2TUNU42VU&index=15
 
+note: the space complexity include both the auxiliary space and space used by the input. In recursive calls, stack space also counts.
 # example related to space complexity:
 
 int add (int n){
