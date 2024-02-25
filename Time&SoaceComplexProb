@@ -1,0 +1,60 @@
+Solved following problems:
+1.       { 3T(n-1), if  n>0,
+T(n) =   { 1, otherwise
+
+2.       { 2T(n-1) – 1, if n>0,
+T(n) =   { 1, otherwise
+
+3.     
+def funct(n):
+   
+    if (n==1):
+       return
+    for i in range(1, n+1):
+        for j in range(1, n + 1):
+            print("*", end = "")
+            break
+          print()
+
+4. void function(int n)
+{
+    int count = 0;
+    for (int i=n/2; i<=n; i++)
+        for (int j=1; j<=n; j = 2 * j)
+            for (int k=1; k<=n; k = k * 2)
+                count++;
+}
+
+5. void function(int n)
+{
+    int count = 0;
+    for (int i=n/2; i<=n; i++)
+        for (int j=1; j+n/2<=n; j = j++)
+            for (int k=1; k<=n; k = k * 2)
+                count++;
+}
+
+6. void function(int n)
+{
+    int i = 1, s =1;
+    while (s <= n)
+    {
+        i++;
+        s += i;
+        printf("*");
+    }
+}
+
+7.  void function(int n)
+{
+    int count = 0;
+    for (int i=0; i<n; i++)
+        for (int j=i; j< i*i; j++)
+            if (j%i == 0)
+            {
+                for (int k=0; k<j; k++)
+                    printf("*");
+            }
+}
+
+8. 
