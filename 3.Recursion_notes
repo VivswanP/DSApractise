@@ -8,3 +8,6 @@ Note:1. recursion uses more memory as it adds to stack with each recursive call 
      2. If the base case is not reached or not defined, then stack overflow problem may arise.
      3. A function "fun" is called direct recursive if it calls the same function and indirect if it calls another function say "fun1" and that "fun1" calls "fun".
 
+The flow: When the function is called from main(), a memory is allocated to it in stack. Now when that function calls itsekf, a new memory space( on top of the memory 
+          allocated to calling function) is created and a different copy of local variables is created for each function call. When the base case is reached, the 
+          function returns its value to the calling function, memory space is de-allocated and the process continues.
