@@ -1,1 +1,10 @@
+Recursion : The process by which a function call itself directly or indeirectly. And the corresponding function is called recursive function.
+Algorithm of recursion:
+1. Define a base case: to ensure that recursion terminates and not end up in infinite loop.
+2. Define Recursive calls: break the problem into small sub-problems.
+3. Ensure that recursion reaches the base case
+4. combine the solutions of sub-problems to soove original problem.
+Note:1. recursion uses more memory as it adds to stack with each recursive call and keeps the value there till the last call.
+     2. If the base case is not reached or not defined, then stack overflow problem may arise.
+     3. A function "fun" is called direct recursive if it calls the same function and indirect if it calls another function say "fun1" and that "fun1" calls "fun".
 
