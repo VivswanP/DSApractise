@@ -4,7 +4,7 @@ Algorithm of recursion:
 2. Define Recursive calls: break the problem into small sub-problems.
 3. Ensure that recursion reaches the base case
 4. combine the solutions of sub-problems to soove original problem.
-Note:1. recursion uses more memory as it adds to stack with each recursive call and keeps the value there till the last call.
+Note:1. recursion uses more memory as it adds to stack with each recursive call and keeps the value there till the last call. (stack follows LIFO)
      2. If the base case is not reached or not defined, then stack overflow problem may arise.
      3. A function "fun" is called direct recursive if it calls the same function and indirect if it calls another function say "fun1" and that "fun1" calls "fun".
 
